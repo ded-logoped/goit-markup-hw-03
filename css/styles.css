@@ -11,6 +11,51 @@ a {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container{
+  display: flex;
+}
+
+
+
+.logobox{
+  padding-left: 156px;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+
+.header-line{
+  display: flex;
+}
+
+
+.navi-group{
+  display: flex;
+  gap: 40px;
 }
 
 .navigation {
@@ -20,19 +65,30 @@ ol {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-.navi-item{
-color: #2e2f42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; 
-letter-spacing: 0.02em;
+
+
+.adres{
+  display: flex;
+  gap: 40px;
 }
-.navi-item:hover{
-color:#404bbf;
+.navi-item {
+  box-sizing: border-box;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.navi-item:focus{
-    color: #404bbf;
+.navi-item:hover {
+  color: #404bbf;
+}
+.navi-item:focus {
+  color: #404bbf;
 }
 
 .logo-link {
@@ -43,9 +99,10 @@ color:#404bbf;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
-.logo-link:hover{
-    color: #404bbf ;
+.logo-link:hover {
+  color: #404bbf;
 }
 .logo-link-tile {
   color: #2e2f42;
@@ -56,8 +113,8 @@ color:#404bbf;
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.strongs{
-    text-align: center;
+.strongs {
+  text-align: center;
 }
 .contacts {
   font-size: 16px;
@@ -65,19 +122,20 @@ color:#404bbf;
   line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+  
+
 .connection {
-color: #434455
+  color: #434455;
 }
-.connection:hover{
-color: #404bbf;
+.connection:hover {
+  color: #404bbf;
 }
-.connection:focus{
-    color: #404bbf;
+.connection:focus {
+  color: #404bbf;
 }
-
-
-   
 
 .hero {
   background-color: #2e2f42;
@@ -89,23 +147,33 @@ color: #404bbf;
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .order-button {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
-cursor: pointer;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   background-color: #4d5ae5;
+  border-radius: 4px;
+  text-align: center;
+  padding: 16px 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  height: 56px;
 }
 .order-button:hover {
   background-color: #404bbf;
 }
-.order-button:focus{
-    background-color: #404bbf;
+.order-button:focus {
+  background-color: #404bbf;
 }
 
 .strength {
@@ -116,15 +184,15 @@ cursor: pointer;
   letter-spacing: 0.02em;
 }
 .strength .str-text {
-  color: #434455 ;
+  color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.strongs-item{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.strongs-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team {
   background-color: #f4f4fd;
@@ -138,14 +206,12 @@ cursor: pointer;
   text-align: center;
   text-transform: capitalize;
 }
-.str-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.str-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
-
 
 .team-list-item {
   color: #2e2f42;
@@ -167,36 +233,30 @@ cursor: pointer;
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; 
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  
 }
-.portfolio-list-item{
-    background-color: #fff;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
+.portfolio-list-item {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
   text-transform: capitalize;
-
 }
-.paragraph{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-
-
-
 
 .footer {
- font-family: "Relaway", sans-serif;
+  font-family: "Relaway", sans-serif;
   background: #2e2f42;
 }
 .logo-link-footer {
