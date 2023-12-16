@@ -28,7 +28,7 @@ p {
   margin: 0;
 }
 
-img{
+img {
   display: block;
   max-width: 100%;
 }
@@ -41,24 +41,22 @@ img{
   margin-right: auto;
 }
 
-.header-container{
+.header-container {
   display: flex;
 }
 
-
-
-.logobox{
+.logobox {
   padding-left: 156px;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
 }
 
-.header{
-  border-bottom: 1px solid #e7e9fc
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
-
-.navi-group{
+.navi-group {
   display: flex;
   gap: 40px;
 }
@@ -77,8 +75,7 @@ img{
   align-items: center;
 }
 
-
-.adres{
+.adres {
   display: flex;
   gap: 40px;
 }
@@ -131,7 +128,6 @@ img{
   padding-top: 24px;
   padding-bottom: 24px;
 }
-  
 
 .connection {
   color: #434455;
@@ -160,8 +156,7 @@ img{
   margin-left: auto;
   margin-right: auto;
   max-width: 496px;
-  }
-
+}
 
 .order-button {
   font-family: "Roboto", sans-serif;
@@ -197,7 +192,25 @@ img{
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
+  padding: 120px 0;
+}
+
+.strength-item {
+  width: calc((100% - 72) / 4);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .strength .str-text {
   color: #434455;
@@ -230,7 +243,7 @@ img{
   margin-bottom: 72px;
 }
 
-.team-list{
+.team-list {
   display: flex;
   gap: 24px;
   justify-content: space-between;
@@ -245,10 +258,6 @@ img{
   font-weight: 400;
 }
 
- 
-
-
-
 .team-list-item {
   color: #2e2f42;
   background-color: #fff;
@@ -262,7 +271,7 @@ img{
   margin-bottom: 8px;
 }
 
-.team-pic{
+.team-pic {
   margin-bottom: 32px;
 }
 
@@ -284,32 +293,25 @@ img{
   margin-bottom: 72px;
 }
 
-
-
-.pfimg{
+.pfimg {
   margin-bottom: 0px;
-  
 }
 
-.pfbox{
+.pfbox {
   padding-bottom: 32px;
   padding-top: 32px;
-  
-  
 }
 
-.pfbox{
-  border: 1px solid #E7E9FC;
+.pfbox {
+  border: 1px solid #e7e9fc;
   border-top: none;
-  
 }
 
-
-.portfolio-list{
+.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  width: calc((100% - 24*3)/4);
+  width: calc((100% - 72) / 4);
   margin-bottom: 120px;
 }
 .portfolio-list-item {
@@ -334,7 +336,6 @@ img{
   display: block;
   padding-left: 16px;
   padding-right: 16px;
-
 }
 
 .footer {
@@ -342,7 +343,6 @@ img{
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
 .logo-link-footer {
   display: block;
@@ -354,8 +354,6 @@ img{
   color: #4d5ae5;
   text-transform: uppercase;
   margin-bottom: 16px;
-  
-  
 }
 .logo-link-tile-footer {
   color: #f4f4fd;
