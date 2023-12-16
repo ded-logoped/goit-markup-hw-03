@@ -35,8 +35,7 @@ img {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,6 +43,8 @@ img {
 .header-container {
   display: flex;
   padding: 24px 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logobox {
@@ -86,6 +87,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .navi-item:hover {
   color: #404bbf;
@@ -184,6 +186,10 @@ img {
   background-color: #404bbf;
 }
 
+.strength-section {
+  padding: 120px 0;
+}
+
 .strength {
   color: #2e2f42;
   font-weight: 500;
@@ -192,7 +198,6 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 
 .strength-item {
