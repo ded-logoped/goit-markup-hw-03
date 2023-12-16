@@ -53,8 +53,8 @@ img{
   padding-bottom: 25.5px;
 }
 
-.header-line{
-  display: flex;
+.header{
+  border-bottom: 1px solid #e7e9fc
 }
 
 
@@ -74,6 +74,7 @@ img{
   margin-right: auto;
   padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 
 
@@ -179,6 +180,7 @@ img{
   margin-right: auto;
   border: none;
   height: 56px;
+  min-width: 169px;
 }
 .order-button:hover {
   background-color: #404bbf;
